@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstFragment"
+    android:background="#3F51B5">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-88dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline9">
+
+        <Button
+            android:id="@+id/backBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:insetLeft="10dp"
+            android:insetTop="10dp"
+            android:insetRight="10dp"
+            android:insetBottom="10dp"
+            android:text="back"
+            android:textColor="#FFEB3B"
+            android:textSize="18sp"
+            app:backgroundTint="#2196F3" />
+
+        <Button
+            android:id="@+id/postureBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:insetLeft="30dp"
+            android:insetTop="10dp"
+            android:insetRight="30dp"
+            android:insetBottom="10dp"
+            android:text="body\nposture"
+            android:textColor="#FFEB3B"
+            android:textSize="18sp"
+            app:backgroundTint="#2196F3" />
+
+        <Button
+            android:id="@+id/legsBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:insetLeft="10dp"
+            android:insetTop="10dp"
+            android:insetRight="10dp"
+            android:insetBottom="10dp"
+            android:text="legs"
+            android:textColor="#FFEB3B"
+            android:textSize="18sp"
+            app:backgroundTint="#2196F3" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/guideline9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline8">
+
+        <Button
+            android:id="@+id/chestBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:insetLeft="10dp"
+            android:insetTop="10dp"
+            android:insetRight="10dp"
+            android:insetBottom="10dp"
+            android:text="chest"
+            android:textColor="#FFEB3B"
+            android:textSize="18sp"
+            app:backgroundTint="#2196F3" />
+
+        <Button
+            android:id="@+id/wideShouldersBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:insetLeft="20dp"
+            android:insetTop="10dp"
+            android:insetRight="20dp"
+            android:insetBottom="10dp"
+            android:text="wide\nshoulders"
+            android:textColor="#FFEB3B"
+            android:textSize="18sp"
+            app:backgroundTint="#2196F3" />
+
+        <Button
+            android:id="@+id/absBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:insetLeft="10dp"
+            android:insetTop="10dp"
+            android:insetRight="10dp"
+            android:text="abs"
+            android:textColor="#FFEB3B"
+            android:textSize="18sp"
+            app:backgroundTint="#2196F3" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/guideline8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline7">
+
+        <Button
+            android:id="@+id/warmUpBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:insetLeft="10dp"
+            android:insetTop="10dp"
+            android:insetRight="10dp"
+            android:insetBottom="10dp"
+            android:text="warm\nup"
+            android:textColor="#FFEB3B"
+            android:textSize="18sp"
+            app:backgroundTint="#2196F3" />
+
+        <Button
+            android:id="@+id/tricepsBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:insetLeft="30dp"
+            android:insetTop="10dp"
+            android:insetRight="30dp"
+            android:insetBottom="10dp"
+            android:text="triceps"
+            android:textColor="#FFEB3B"
+            android:textSize="18sp"
+            app:backgroundTint="#2196F3" />
+
+        <Button
+            android:id="@+id/bigArmsBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:insetLeft="10dp"
+            android:insetTop="10dp"
+            android:insetRight="10dp"
+            android:insetBottom="10dp"
+            android:text="big\narms"
+            android:textColor="#FFEB3B"
+            android:textSize="18sp"
+            app:backgroundTint="#2196F3" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textview_first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="WORKOUT TUTORIALS"
+        android:textSize="32sp"
+        android:textStyle="italic"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/guideline7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.623" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="200dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="350dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="500dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

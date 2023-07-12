@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1056196084160",
+    "project_id": "workoutchads",
+    "storage_bucket": "workoutchads.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1056196084160:android:99f65c411213a244b98825",
+        "android_client_info": {
+          "package_name": "com.example.workoutapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1056196084160-bvigqihs6dtucd48hh0ruvrt0n5ujkpk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAE0aeb64qtvjMbleaBU_I-WLuxUbMA8vw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1056196084160-bvigqihs6dtucd48hh0ruvrt0n5ujkpk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

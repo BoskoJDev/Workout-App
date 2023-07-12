@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Workout app</string>
+    <string name="title_activity_list">ListActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_video">VideoActivity</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="workoutVideoURLs">
+        <item name="abs">https://www.youtube.com/embed/JLdSuFF62AI</item>
+        <item name="back">https://www.youtube.com/embed/SOvsUhLCdys</item>
+        <item name="big arms">https://www.youtube.com/embed/fKDKrK5njI8</item>
+        <item name="wide shoulders">https://www.youtube.com/embed/8WhDpYg-tD4</item>
+        <item name="triceps">https://www.youtube.com/embed/vIgYHZOAfFo</item>
+        <item name="chest">https://www.youtube.com/embed/O9K0k7fzrqU</item>
+        <item name="warm up">https://www.youtube.com/embed/rzNBx_B4pQ4</item>
+        <item name="legs">https://www.youtube.com/embed/841gJUczmzg</item>
+        <item name="body posture">https://www.youtube.com/embed/Jg3AWvvSfqI</item>
+    </string-array>
+</resources>
